@@ -23,6 +23,7 @@ public class Main extends JPanel {
 
         // Draw the sine wave
         for (int x = 0; x < width; x++) {
+            //code for graph
             int y = (int) (amplitude * Math.sin((x * Math.PI * frequency) / width));
 
             g.drawLine(x, xAxis - y, x, xAxis - y);
